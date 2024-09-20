@@ -2,6 +2,9 @@
 
 use Illuminate\Http\Request;
 
+var_dump($_SERVER['REQUEST_URI']);
+die();
+
 define('LARAVEL_START', microtime(true));
 
 // Determine if the application is in maintenance mode...
